@@ -1,21 +1,20 @@
-import Head from "next/head";
 import Link from "next/link";
-import styles from "../styles/Home.module.css";
+import { useRouter } from "next/router";
 
-export default function Home() {
+function Home() {
+  const router = useRouter();
+  const handleClick = () => {
+    console.log("Placed order successfully");
+    router.replace("/product");
+    // router.push("/product");
+  };
+
   return (
     <>
-      <Head>
-        <title>asity | home</title>
-        <meta name="keywords" content="manikangkan" />
-      </Head>
-      <div className={styles.container}>
-        <h1>hello homepage you know</h1>
-        <h1>this is a home page got it</h1>
-        <Link href="/asity">
-          <a>back to asity</a>
-        </Link>
-      </div>
+      <h1>Home page</h1>
+      <Link href="/posts">Posts</Link>
     </>
   );
 }
+
+export default Home;
