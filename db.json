@@ -1,4 +1,98 @@
 {
+  "events": [
+    {
+      "id": 1,
+      "title": "Event 1",
+      "description": "This is the first event",
+      "category": "sports",
+      "date": "2016-01-01"
+    },
+    {
+      "id": 2,
+      "title": "Event 2",
+      "description": "This is the second event",
+      "category": "politics",
+      "date": "2016-01-02"
+    },
+    {
+      "id": 3,
+      "title": "Event 3",
+      "description": "This is the third event",
+      "category": "sports",
+      "date": "2016-01-03"
+    },
+    {
+      "id": 4,
+      "title": "Event 4",
+      "description": "This is the fourth event",
+      "category": "history",
+      "date": "2016-01-04"
+    },
+    {
+      "id": 5,
+      "title": "Event 5",
+      "description": "This is the fifth event",
+      "category": "sports",
+      "date": "2016-01-05"
+    },
+    {
+      "id": 6,
+      "title": "Event 6",
+      "description": "This is the sixth event",
+      "category": "tech",
+      "date": "2016-01-06"
+    }
+  ],
+  "dashboard": {
+    "posts": 124,
+    "likes": 546.4,
+    "followers": 320,
+    "following": 230
+  },
+  "news": [
+    {
+      "id": 1,
+      "title": "News 1",
+      "description": "This is news 1",
+      "category": "sports"
+    },
+    {
+      "id": 2,
+      "title": "News 2",
+      "description": "This is news 2",
+      "category": "history"
+    },
+    {
+      "id": 3,
+      "title": "News 3",
+      "description": "This is news 3",
+      "category": "politics"
+    },
+    {
+      "id": 4,
+      "title": "News 4",
+      "description": "This is news 4",
+      "category": "nature"
+    },
+    {
+      "id": 5,
+      "title": "News 5",
+      "description": "This is news 5",
+      "category": "sports"
+    },
+    {
+      "id": 6,
+      "title": "News 6",
+      "description": "This is news 6",
+      "category": "geopolitics"
+    },
+    {
+      "id": 7,
+      "title": "News 7",
+      "description": "This is news 7",
+      "category": "sports"
+    }
+  ],
   "products": [
     {
       "id": 1,
