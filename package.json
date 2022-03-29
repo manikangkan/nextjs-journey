@@ -3,11 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "start http://localhost:3000/ && next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "start http://localhost:3000/ && next start",
     "lint": "next lint",
-    "serve-json": "json-server --watch db.json --port 4000"
+    "serve-json": "start http://localhost:4000/ && json-server --watch db.json --port 4000"
   },
   "dependencies": {
     "json-server": "^0.17.0",

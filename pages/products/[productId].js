@@ -30,19 +30,21 @@ export async function getStaticPaths() {
 
 export async function getStaticProps(context) {
   const { params } = context;
+  console.log(`Generating page for ${params.productId}`);
   const response = await fetch(
     `http://localhost:4000/products/${params.productId}`
   );
   const data = await response.json();
 
-  if (!data.id) {
-    return { notFound: true };
-  }
+  // if (!data.id) {
+  //   return { notFound: true };
+  // }
 
-  console.log(`Generating page for ${params.postId}`);
+  // console.log(`Generating page for ${params.postId}`);
   return {
     props: {
       product: data,
     },
+    revalidate: 10,
   };
 }
